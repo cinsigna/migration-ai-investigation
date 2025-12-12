@@ -6,15 +6,15 @@ A lightweight dashboard to analyse migration payloads, identify mismatches, quan
 
 ## Overview
 
-The dashboard ingests a migration CSV file and provides:
+This project demonstrates an AI powered approach to investigating utility billing migration issues.
+It ingests SI migration payloads, identifies mismatches between legacy and migrated products, quantifies customer impact, and generates a structured root cause analysis with remediation guidance.
 
-- mismatch detection between legacy and migrated products
-- grouping by SI reason code and product pair
-- customer impact lists for each mismatch pattern
-- a simple visual summary of mismatch volumes
-- AI-generated root cause analysis and remediation guidance
+The goal is to reduce manual investigation time and provide delivery teams with clear, client ready insights to support incident triage and migration remediation.
 
-This reduces manual investigation time and supports consistent reporting to clients and internal teams.
+## Presentation
+
+The case study presentation and supporting materials are included in the docs folder.
+These slides are used to walk through the approach, the prototype, and the investigation flow during the interview.
 
 ---
 
