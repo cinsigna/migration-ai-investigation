@@ -41,10 +41,12 @@ Includes likely cause, remediation suggestion, systematic vs isolated classifica
 
 ## Folder Structure
 
-CDL - Case study/
+CDL-case-study/
 │
-├── data/                     sample migration payloads
-├── output/                   exported analysis files
+├── data/
+│   └── sample_migration_payload.csv
+│
+├── output/
 │   ├── ai_mismatch_analysis.txt
 │   ├── impacted_customers.csv
 │   └── impacted_customers_by_pattern.csv
@@ -55,10 +57,11 @@ CDL - Case study/
 ├── notebooks/
 │   └── RCA.ipynb
 │
-├── docs/ or presentation/    slide deck for case study
+├── docs/                  # case study slides, diagrams, notes
+│   └── Migration_Case_Study.pdf
+│
 ├── requirements.txt
 └── README.md
----
 
 ## Setup
 
