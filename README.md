@@ -41,27 +41,26 @@ Includes likely cause, remediation suggestion, systematic vs isolated classifica
 
 ## Folder Structure
 
-CDL-case-study/
+CDL - Case study/
 │
-├── data/
-│   └── sample_migration_payload.csv
+├── data/                     sample migration payloads  
+├── output/                   exported analysis files  
+│   ├── ai_mismatch_analysis.txt  
+│   ├── impacted_customers.csv  
+│   └── impacted_customers_by_pattern.csv  
 │
-├── output/
-│   ├── ai_mismatch_analysis.txt
-│   ├── impacted_customers.csv
-│   └── impacted_customers_by_pattern.csv
+├── src/  
+│   └── mismatch_dashboard.py    main analysis + Gradio app  
 │
-├── src/
-│   └── mismatch_dashboard.py
+├── notebooks/  
+│   └── RCA.ipynb                optional exploratory analysis  
 │
-├── notebooks/
-│   └── RCA.ipynb
+├── docs/ or presentation/       slide deck for the case study  
 │
-├── docs/                  # case study slides, diagrams, notes
-│   └── Migration_Case_Study.pdf
-│
-├── requirements.txt
-└── README.md
+├── requirements.txt  
+└── README.md  
+
+---
 
 ## Setup
 
