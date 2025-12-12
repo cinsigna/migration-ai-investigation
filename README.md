@@ -43,23 +43,21 @@ Includes likely cause, remediation suggestion, systematic vs isolated classifica
 
 CDL - Case study/
 │
-├── data/                     sample migration payloads  
-├── output/                   exported analysis files  
-│   ├── ai_mismatch_analysis.txt  
-│   ├── impacted_customers.csv  
-│   └── impacted_customers_by_pattern.csv  
+├── data/                     sample migration payloads
+├── output/                   exported analysis files
+│   ├── ai_mismatch_analysis.txt
+│   ├── impacted_customers.csv
+│   └── impacted_customers_by_pattern.csv
 │
-├── src/  
-│   └── mismatch_dashboard.py    main analysis + Gradio app  
+├── src/
+│   └── mismatch_dashboard.py
 │
-├── notebooks/  
-│   └── RCA.ipynb                optional exploratory analysis  
+├── notebooks/
+│   └── RCA.ipynb
 │
-├── docs/ or presentation/       slide deck for the case study  
-│
-├── requirements.txt  
-└── README.md  
-
+├── docs/ or presentation/    slide deck for case study
+├── requirements.txt
+└── README.md
 ---
 
 ## Setup
