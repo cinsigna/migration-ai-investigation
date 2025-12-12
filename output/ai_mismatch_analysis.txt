@@ -1,0 +1,29 @@
+- **Pattern:** HomeSaverFixed24 → HomeFlexStandard, MAP_RULE_12  
+  - Explanation: Customers on the HomeSaverFixed24 plan were migrated to HomeFlexStandard due to a mapping rule (MAP_RULE_12) that likely incorrectly associates these two products.  
+  - Remediation: Review and correct MAP_RULE_12 to ensure HomeSaverFixed24 customers are mapped to the correct product.  
+  - Pattern type: Systematic (2 customers affected).  
+  - Impacted customers: [1001, 1009]
+
+- **Pattern:** BusinessPeakOffpeak → BusinessFlex, MAP_RULE_12  
+  - Explanation: BusinessPeakOffpeak customers were migrated to BusinessFlex under the same mapping rule (MAP_RULE_12), indicating a possible overgeneralization in the rule.  
+  - Remediation: Refine MAP_RULE_12 to differentiate between business product variants accurately.  
+  - Pattern type: Isolated (1 customer affected).  
+  - Impacted customers: [1007]
+
+- **Pattern:** GreenFuture12 → GreenFuture24, MAP_RULE_18  
+  - Explanation: GreenFuture12 customers were migrated to GreenFuture24, possibly due to a rule (MAP_RULE_18) that assumes a 12-month product should map to a 24-month variant.  
+  - Remediation: Review MAP_RULE_18 for correct product duration mapping and adjust accordingly.  
+  - Pattern type: Isolated (1 customer affected).  
+  - Impacted customers: [1010]
+
+- **Pattern:** GreenFuture12 → HomeFlexStandard, MAP_RULE_03  
+  - Explanation: A GreenFuture12 customer was migrated to HomeFlexStandard, suggesting MAP_RULE_03 incorrectly maps a green energy product to a standard home product.  
+  - Remediation: Investigate and fix MAP_RULE_03 to prevent cross-category product mapping errors.  
+  - Pattern type: Isolated (1 customer affected).  
+  - Impacted customers: [1003]
+
+- **Pattern:** HomeFlexStandard → HomeSaverFixed24, MAP_RULE_99  
+  - Explanation: A HomeFlexStandard customer was migrated to HomeSaverFixed24, possibly due to a fallback or exception rule (MAP_RULE_99) that misassigns products.  
+  - Remediation: Examine MAP_RULE_99 for unintended mappings and correct the logic.  
+  - Pattern type: Isolated (1 customer affected).  
+  - Impacted customers: [1006]
