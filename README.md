@@ -53,7 +53,7 @@ CDL - Case study/
 │   └── mismatch_dashboard.py    main analysis + Gradio app  
 │
 ├── notebooks/  
-│   └── RCA.ipynb                optional exploratory analysis  
+│   └── RCA.ipynb                exploratory analysis  
 │
 ├── docs/ or presentation/       slide deck for the case study  
 │
