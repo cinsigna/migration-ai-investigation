@@ -55,7 +55,7 @@ CDL - Case study/
 ├── notebooks/  
 │   └── RCA.ipynb                exploratory analysis  
 │
-├── docs/ or presentation/       slide deck for the case study  
+├── presentation/       slide deck for the case study  
 │
 ├── requirements.txt  
 └── README.md  
